@@ -1,0 +1,93 @@
+.center {
+    text-align: center;
+    color: white
+}
+
+.solid {
+    border-style: solid;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container > div {
+    background-color: white;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 50px;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+div.polaroid {
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .white {
+    color: white;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #f32121;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ec0606;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #f38181;
+  color: black;
+}
+.game{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.no{
+  font-size: large;
+}
+ /*  div.gallery {
+    margin: 100px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery audio {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+ */
